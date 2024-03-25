@@ -1,0 +1,184 @@
+.nav-link:hover{
+    color:red;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 800;
+}
+.collapse ul li a{
+    font-weight: 700;
+}
+.explore{
+    background-image: url(OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+.explore h1{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+.explore p{
+    font-weight: 600;
+    font-size: 20px;
+}
+label{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+}
+.categories{
+    position: relative;
+    height: 100%;
+    background-color: rgb(213, 216, 215);
+}
+.categories .card-1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    padding: 10px;
+
+}
+.places{
+    padding-top: 150px;
+}
+
+.places .card{
+    box-shadow: 2px 2px 5px 2px rgb(199, 197, 197);
+}
+.places .card i{
+    font-size: 60px;
+}
+.places .card:hover{
+    background-color: red;
+    color: white;
+}
+.works{
+    background-color: rgb(227, 233, 230);
+}
+
+.works .card-body i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: rgb(225, 221, 221);
+    border-radius: 50%;
+}
+.works .card button{
+    padding: 10px;
+    background-color: white;
+}
+.works .card:hover{
+    background-color: red;
+    color: white;
+}
+
+.works .card:hover button{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+.works .card:hover i{
+    background-color: white;
+    color: red;
+}
+
+.ratings .card-body .small-text{
+    font-size: 12px;
+    color: rgb(140, 139, 139);
+}
+.user-pic img{
+    border-radius: 50%;
+}
+.row .small-text .col-3:nth-child(2){
+    border-right: 1px solid gray;
+    height: 80%;
+}
+.row .small-text .col-3:nth-child(3){
+    border-right: 1px solid gray;
+    height: 80%;
+}
+.ratings .lines,.client-review .lines{
+    height: 2px;
+    background-color: red;
+    width: 100px;
+    text-align: center;
+    margin: 1px 0px;
+    
+}
+.ratings .card .main-img{
+    height: 200px;
+}
+.ratings .card .user-text p{
+    font-size: 12px;
+    
+}
+.ratings .close-icons{
+    justify-content: space-between;
+    border-top: 1px solid rgb(195, 192, 192);
+}
+.ratings .card-body:hover{
+    box-shadow: 2px 2px 5px 5px rgb(201, 200, 200);
+}
+/* .ratings  .user-line{
+    
+    border-bottom: 1px solid gray;
+} */
+
+.carousel-item img{
+    border-radius: 50%;
+}
+.numbers{
+    background-image: url(news-img01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.numbers .number-bg{
+    background-color: rgba(31, 31, 99, 0.58);
+    color: white;
+   
+   
+}
+.numbers h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.numbers p{
+    font-weight: 600;
+}
+
+.client-review img{
+    height: 80px;   
+}
+.client-review i{
+    color: rgb(248, 204, 5);
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+}
+footer {
+    border-top: 1px solid rgb(212, 208, 208);
+    padding-top: 30px;
+}
+footer i{
+    color: red;
+}
